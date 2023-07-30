@@ -1,0 +1,23 @@
+.carousel-item img{
+    height: 500px; 
+}
+.grid-container {
+    display: flex;
+    justify-content: center;
+  } 
+  .grid-item {
+    transition: transform 0.3s ease;
+  }
+  
+  .grid-item:hover {
+    transform: scale(1.05);
+  }
+  .grid-inner a:hover {
+        color: #000000;
+  }
+  .grid img{
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+  
